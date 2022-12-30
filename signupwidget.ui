@@ -1,0 +1,1300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>750</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:repeat, x1:0, y1:1, x2:0.977273, y2:0, stop:0 rgba(227, 0, 10, 254), stop:1 rgba(255, 255, 255, 255));
+font: italic Bold 10pt &quot;Lucida Bright&quot;;</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>60</y>
+     <width>431</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: italic bold 10pt &quot;Lucida Bright&quot;;color:rgb(255,255,255);</string>
+      </property>
+      <property name="text">
+       <string>Name                </string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse</set>
+      </property>
+      <property name="buddy">
+       <cstring>disease</cstring>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="name">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_8">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>260</y>
+     <width>431</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_16">
+    <item>
+     <widget class="QLabel" name="label_19">
+      <property name="styleSheet">
+       <string notr="true">font: italic bold 10pt &quot;Lucida Bright&quot;;color:rgb(255,255,255);</string>
+      </property>
+      <property name="text">
+       <string>E-mail               </string>
+      </property>
+      <property name="buddy">
+       <cstring>lineEdit_15</cstring>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="mail">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhEmailCharactersOnly</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_7">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>220</y>
+     <width>431</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_5">
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="styleSheet">
+       <string notr="true">font: italic bold 10pt &quot;Lucida Bright&quot;;color:rgb(255,255,255);</string>
+      </property>
+      <property name="text">
+       <string>Gender              </string>
+      </property>
+      <property name="buddy">
+       <cstring>disease</cstring>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="gender">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Male</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Female</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>100</y>
+     <width>431</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_13">
+    <item>
+     <widget class="QLabel" name="label_13">
+      <property name="styleSheet">
+       <string notr="true">font: italic bold 10pt &quot;Lucida Bright&quot;;color:rgb(255,255,255);</string>
+      </property>
+      <property name="text">
+       <string>Surname            </string>
+      </property>
+      <property name="buddy">
+       <cstring>lineEdit_8</cstring>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="surname">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_9">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>380</y>
+     <width>431</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_6">
+    <item>
+     <widget class="QLabel" name="label_6">
+      <property name="styleSheet">
+       <string notr="true">font: italic bold 10pt &quot;Lucida Bright&quot;;color:rgb(255,255,255);</string>
+      </property>
+      <property name="text">
+       <string>Blood Group</string>
+      </property>
+      <property name="buddy">
+       <cstring>disease</cstring>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="b_group">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="editable">
+       <bool>false</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>A Rh+</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>A Rh-</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B Rh+</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B Rh-</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>AB Rh+</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>AB Rh-</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0 Rh+</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0 Rh-</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>140</y>
+     <width>431</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_14">
+    <item>
+     <widget class="QLabel" name="label_14">
+      <property name="styleSheet">
+       <string notr="true">font: italic bold 10pt &quot;Lucida Bright&quot;;color:rgb(255,255,255);</string>
+      </property>
+      <property name="text">
+       <string>Identitiy Number </string>
+      </property>
+      <property name="buddy">
+       <cstring>lineEdit_9</cstring>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="inum">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhFormattedNumbersOnly</set>
+      </property>
+      <property name="maxLength">
+       <number>11</number>
+      </property>
+      <property name="placeholderText">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_5">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>300</y>
+     <width>431</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_17">
+    <item>
+     <widget class="QLabel" name="label_17">
+      <property name="styleSheet">
+       <string notr="true">font: italic bold 10pt &quot;Lucida Bright&quot;;color:rgb(255,255,255);</string>
+      </property>
+      <property name="text">
+       <string>Birthdate</string>
+      </property>
+      <property name="buddy">
+       <cstring>dateEdit</cstring>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QDateEdit" name="birthdate">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="locale">
+       <locale language="English" country="UnitedStates"/>
+      </property>
+      <property name="maximumDateTime">
+       <datetime>
+        <hour>23</hour>
+        <minute>59</minute>
+        <second>59</second>
+        <year>2004</year>
+        <month>12</month>
+        <day>31</day>
+       </datetime>
+      </property>
+      <property name="minimumDateTime">
+       <datetime>
+        <hour>0</hour>
+        <minute>0</minute>
+        <second>0</second>
+        <year>1957</year>
+        <month>9</month>
+        <day>14</day>
+       </datetime>
+      </property>
+      <property name="calendarPopup">
+       <bool>true</bool>
+      </property>
+      <property name="date">
+       <date>
+        <year>2000</year>
+        <month>1</month>
+        <day>1</day>
+       </date>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>180</y>
+     <width>431</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_18">
+    <item>
+     <widget class="QLabel" name="label_20">
+      <property name="styleSheet">
+       <string notr="true">font: italic bold 10pt &quot;Lucida Bright&quot;;color:rgb(255,255,255);</string>
+      </property>
+      <property name="text">
+       <string>Phone Number    </string>
+      </property>
+      <property name="buddy">
+       <cstring>lineEdit_10</cstring>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="phone">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_6">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>340</y>
+     <width>431</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_19">
+    <item>
+     <widget class="QRadioButton" name="radonation">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Lucida Bright</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_21">
+      <property name="styleSheet">
+       <string notr="true">font: italic bold 10pt &quot;Lucida Bright&quot;;color:rgb(255,255,255);</string>
+      </property>
+      <property name="text">
+       <string>Last Blood Donation</string>
+      </property>
+      <property name="buddy">
+       <cstring>dateEdit_2</cstring>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QDateEdit" name="l_donation">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="locale">
+       <locale language="English" country="UnitedStates"/>
+      </property>
+      <property name="maximumDateTime">
+       <datetime>
+        <hour>23</hour>
+        <minute>59</minute>
+        <second>59</second>
+        <year>2023</year>
+        <month>12</month>
+        <day>31</day>
+       </datetime>
+      </property>
+      <property name="minimumDateTime">
+       <datetime>
+        <hour>0</hour>
+        <minute>0</minute>
+        <second>0</second>
+        <year>1957</year>
+        <month>1</month>
+        <day>1</day>
+       </datetime>
+      </property>
+      <property name="calendarPopup">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>578</y>
+     <width>431</width>
+     <height>67</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="password">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::PasswordEchoOnEdit</enum>
+      </property>
+      <property name="cursorPosition">
+       <number>0</number>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_22">
+      <property name="styleSheet">
+       <string notr="true">font: italic bold 10pt &quot;Lucida Bright&quot;;color:rgb(255,255,255);</string>
+      </property>
+      <property name="text">
+       <string> Password</string>
+      </property>
+      <property name="buddy">
+       <cstring>lineEdit_12</cstring>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_23">
+      <property name="styleSheet">
+       <string notr="true">font: italic bold 10pt &quot;Lucida Bright&quot;;color:rgb(255,255,255);</string>
+      </property>
+      <property name="text">
+       <string> Confirm Password        </string>
+      </property>
+      <property name="buddy">
+       <cstring>lineEdit_13</cstring>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="password_again">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::PasswordEchoOnEdit</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="signinup">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>670</y>
+     <width>161</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic bold 10pt &quot;Lucida Bright&quot;;color:rgb(255,255,255);</string>
+   </property>
+   <property name="text">
+    <string>Sign Up / Sign in</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_11">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>420</y>
+     <width>431</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_7">
+    <item>
+     <widget class="QLabel" name="label_8">
+      <property name="styleSheet">
+       <string notr="true">font: italic bold 10pt &quot;Lucida Bright&quot;;color:rgb(255,255,255);</string>
+      </property>
+      <property name="text">
+       <string>Weight (kg)</string>
+      </property>
+      <property name="buddy">
+       <cstring>disease</cstring>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QDoubleSpinBox" name="weight">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="buttonSymbols">
+       <enum>QAbstractSpinBox::UpDownArrows</enum>
+      </property>
+      <property name="accelerated">
+       <bool>true</bool>
+      </property>
+      <property name="suffix">
+       <string/>
+      </property>
+      <property name="minimum">
+       <double>2.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>200.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>50.000000000000000</double>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>500</y>
+     <width>431</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_9">
+      <property name="styleSheet">
+       <string notr="true">font: italic bold 10pt &quot;Lucida Bright&quot;;color:rgb(255,255,255);</string>
+      </property>
+      <property name="text">
+       <string>Address             </string>
+      </property>
+      <property name="buddy">
+       <cstring>disease</cstring>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="adress">
+      <item>
+       <property name="text">
+        <string>NULL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ADANA</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ADIYAMAN</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>AFYON</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>AĞRI</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>AMASAYA</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ANKARA</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ANTALYA</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ARTVİN</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>AYDIN</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BALIKESİR</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BİLECİK</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BİNGÖL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BİTLİS</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BOLU</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BURDUR</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BURSA</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ÇANAKKALE</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ÇANKIRI</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ÇORUM</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DENİZLİ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DİYARBAKIR</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>EDİRNE</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ELAZIĞ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ERZİNCAN</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ERZURUM</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ESKİŞEHİR</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>GAZİANTEP</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>GİRESUN</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>GÜMÜŞHANE</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>HAKKARİ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>HATAY</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ISPARTA</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>İÇEL (MERSİN)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>İSTANBUL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>İZMİR</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>KARS</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>KASTAMONU</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>KAYSERİ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>KIRKLARELİ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>KIRŞEHİR</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>KOCAELİ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>KONYA</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>KÜTAHYA</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>MALATYA</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>MANİSA</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>KAHRAMANMARAŞ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>MARDİN</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>MUĞLA</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>MUŞ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>NEVŞEHİR</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>NİĞDE</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ORDU</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>RİZE</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SAKARYA</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SAMSUN</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SİİRT</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SİNOP</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SİVAS</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>TEKİRDAĞ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>TOKAT</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>TRABZON</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>TUNCELİ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ŞANLIURFA</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>UŞAK</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VAN</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>YOZGAT</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ZONGULDAK</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>♥AKSARAY♥</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BAYBURT</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>KARAMAN</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>KIRIKKALE</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BATMAN</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ŞIRNAK</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BARTIN</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ARDAHAN</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>IĞDIR</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>YALOVA</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>KARABÜK</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>KİLİS</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>OSMANİYE</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DÜZCE</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>460</y>
+     <width>431</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="styleSheet">
+       <string notr="true">font: italic bold 10pt &quot;Lucida Bright&quot;;color:rgb(255,255,255);</string>
+      </property>
+      <property name="text">
+       <string>Disease   </string>
+      </property>
+      <property name="buddy">
+       <cstring>disease</cstring>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radiob">
+      <property name="styleSheet">
+       <string notr="true">font: italic bold 10pt &quot;Lucida Bright&quot;;color:rgb(255,255,255);</string>
+      </property>
+      <property name="text">
+       <string>No</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radihave">
+      <property name="styleSheet">
+       <string notr="true">font: italic bold 10pt &quot;Lucida Bright&quot;;color:rgb(255,255,255);</string>
+      </property>
+      <property name="text">
+       <string>Yes</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="disease">
+      <property name="contextMenuPolicy">
+       <enum>Qt::DefaultContextMenu</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <property name="placeholderText">
+       <string>If yes, please fill here</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="fillall">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>700</y>
+     <width>591</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic bold 10pt &quot;Lucida Bright&quot;;color:rgb(255,255,255);</string>
+   </property>
+   <property name="text">
+    <string> Please Fill The Table Completely</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>60</y>
+     <width>201</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="database.qrc">:/image/photos/kan1.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="returnto">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>0</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="database.qrc">
+     <normaloff>:/image/photos/png-clipart-house-computer-icons-home-page-house-angle-building-thumbnail.png</normaloff>:/image/photos/png-clipart-house-computer-icons-home-page-house-angle-building-thumbnail.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>name</tabstop>
+  <tabstop>surname</tabstop>
+  <tabstop>inum</tabstop>
+  <tabstop>phone</tabstop>
+  <tabstop>gender</tabstop>
+  <tabstop>mail</tabstop>
+  <tabstop>birthdate</tabstop>
+  <tabstop>radonation</tabstop>
+  <tabstop>l_donation</tabstop>
+  <tabstop>b_group</tabstop>
+  <tabstop>weight</tabstop>
+  <tabstop>radiob</tabstop>
+  <tabstop>radihave</tabstop>
+  <tabstop>disease</tabstop>
+  <tabstop>adress</tabstop>
+  <tabstop>password</tabstop>
+  <tabstop>password_again</tabstop>
+  <tabstop>signinup</tabstop>
+  <tabstop>returnto</tabstop>
+ </tabstops>
+ <resources>
+  <include location="database.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>radihave</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>disease</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>478</x>
+     <y>474</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>611</x>
+     <y>474</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radiob</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>disease</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>387</x>
+     <y>474</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>605</x>
+     <y>474</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

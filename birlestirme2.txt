@@ -1,0 +1,4 @@
+import sqlite3 as sl
+db=sl.connect("database.db")
+cur=db.cursor()
+cur.execute("ALTER Person database.Person ")

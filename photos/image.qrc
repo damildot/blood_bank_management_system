@@ -1,0 +1,21 @@
+<RCC>
+  <qresource>
+    <file>pngwing.com.png</file>
+    <file>png-clipart-house-computer-icons-home-page-house-angle-building-thumbnail.png</file>
+    <file>undefined - Imgur.gif</file>
+    <file>1_KJACFKJ0GKtnhgR7OmlPFA.gif</file>
+    <file>image.qrc</file>
+    <file>kan1.png</file>
+    <file>kLP4.png</file>
+    <file>png-clipart-turkish-red-crescent-turkkizilayi-head-office-red-crescent-blood-center-donation-first-aid-supplies-hilal-text-trademark.png</file>
+    <file>1_KJACFKJ0GKtnhgR7OmlPFA.gif</file>
+    <file>kLP4.png</file>
+    <file>kan1.png</file>
+  </qresource>
+  <qresource prefix="new">
+    <file>undefined - Imgur.gif</file>
+    <file>Smoke-Background-PNG-Image.png</file>
+    <file>1666708236_33-animeshka-org-p-beautiful-background-for-presentation-pint-33.jpg</file>
+    <file>156-1561469_pink-smoke-download-transparent-png-image-pastel-pink.png</file>
+  </qresource>
+</RCC>
